@@ -1,0 +1,50 @@
+
+#wallper{
+	height: 700px;
+	width: 1300px;
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+
+.form-page-insert {
+	width: auto;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.form-insert {
+	width: 400px;
+	border: solid 1px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#tittle {
+	text-align: center;
+}
+
+div #form-insert-child {
+	height: 30px;
+	text-align: right;
+	padding-right: 50px;
+	border-radius: 5px;
+}
+
+table {
+	height: auto;
+	width: 1300px;
+	border-collapse: collapse;
+}
+
+h1 {
+	text-align: center;
+}
+
+/*-----------------------ADMIN-------------------------------------------------*/
+
+

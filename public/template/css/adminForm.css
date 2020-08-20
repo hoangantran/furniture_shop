@@ -1,0 +1,123 @@
+body {
+	
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+.admin-form {
+	height: 800px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.admin-tittle {
+	font-family: sans-serif;
+	width: 100%;
+	height: 10%;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.admin-content {
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #e3e4e1;
+	display: flex;
+}
+
+.admin-content-left {
+	width: 13%;
+	height: 100%;
+	background-color: #FFCD00;
+}
+
+.admin-content-left-child {
+	color: black;
+	width: 100%;
+	height: 7%;
+}
+
+.admin-content-left-child button {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.admin-content-right {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	/*background-image: url('../images/bg_admin.jpg');*/
+}
+
+.admin-content-left-child button:hover {
+	font-size: 17px;
+}
+
+.admin-content-right-top {
+	width: 100%;
+	height: 10%;
+	background-color: #FFCD00;
+	display: flex;
+}
+
+.insert-button {
+	width: 25%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	
+
+}
+
+.insert-button button {
+	width: 50%;
+	height: 50%;
+	border-radius: 5px;
+}
+
+.insert-button button a:hover {
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+.search-button {
+	width: 75%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+}
+
+.admin-content-right-middle {
+	width: 100%;
+	height: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.admin-content-right-bottom {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+}
+
+table {
+	border-collapse: collapse;
+	height: 50%;
+	text-align: center;
+}
+
+
